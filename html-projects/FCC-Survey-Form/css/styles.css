@@ -1,0 +1,62 @@
+body{
+    background-color: #8BC6EC;
+    background-image: url("https://i.ibb.co/dgrSCCc/blue-background-abstract-hd-wallpaper-2560x1600-18266.png"); 
+}
+
+h1, #description{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+h1{
+    font-weight: bolder;
+   margin-top: 1.5em;
+   margin-bottom: 0;
+}
+#description{
+    font-style: italic;
+    margin-top: 0;
+}
+
+#survey-form{
+    width: 40%;
+    margin: auto;
+    padding: 3rem;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    border-radius: 0.50rem;
+    line-height: 2;
+    opacity: 1;
+    font-size: larger;
+    font-family: 'Poppins', sans-serif;
+}
+#name, #email, #number{
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.4rem;
+    border: none;
+}
+#textarea{
+    width:100%;
+    border: none;
+    border-radius: 0.25rem;
+}
+select{
+    width:100%
+}
+fieldset{
+    border: none;
+}
+
+.beverage-type, .temperature, .beverage-type, .location, .comments{
+    margin-bottom: 0%;
+}
+button{
+    background-color: #1DB954;
+    color: white;
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    border: none;
+    border-radius: 0.25rem;
+}
